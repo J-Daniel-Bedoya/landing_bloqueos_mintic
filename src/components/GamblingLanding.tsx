@@ -93,6 +93,21 @@ export const GamblingLanding: React.FC<GamblingLandingProps> = ({ blockedUrl }) 
                 )}
               </button>
             </div>
+
+            {/* Entidades de Control y Vigilancia Logos */}
+            <div className="mt-8 pt-6 border-t border-amber-500/15">
+              <p className="text-[11px] font-bold uppercase tracking-wider text-amber-400/70 mb-4 text-center md:text-left">
+                Entidad reguladora y ministerio de control:
+              </p>
+              <div className="flex flex-wrap items-center justify-center md:justify-start gap-4 md:gap-6">
+                <div className="h-12 px-4 rounded-xl bg-white/5 hover:bg-white/10 border border-white/5 transition-all duration-300 flex items-center justify-center" title="Ministerio TIC Colombia">
+                  <img src="/assets/logos/mintic.svg" alt="MinTIC" className="h-7 w-auto object-contain" />
+                </div>
+                <div className="h-12 px-4 rounded-xl bg-white/5 hover:bg-white/10 border border-white/5 transition-all duration-300 flex items-center justify-center" title="Coljuegos Colombia">
+                  <img src="/assets/logos/coljuegos.svg" alt="Coljuegos" className="h-7 w-auto object-contain" />
+                </div>
+              </div>
+            </div>
           </div>
         </div>
       </div>

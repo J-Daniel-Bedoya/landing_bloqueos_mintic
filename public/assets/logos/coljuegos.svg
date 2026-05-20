@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 260 80" width="100%" height="100%">
+  <!-- Icon -->
+  <g transform="translate(15, 10)">
+    <!-- Golden circular shield/coin -->
+    <circle cx="30" cy="30" r="26" fill="url(#goldGrad)" stroke="#F59E0B" stroke-width="2"/>
+    <!-- Crown or Dice details inside coin -->
+    <rect x="20" y="20" width="8" height="8" rx="1.5" fill="#1E293B"/>
+    <rect x="32" y="20" width="8" height="8" rx="1.5" fill="#1E293B"/>
+    <rect x="20" y="32" width="8" height="8" rx="1.5" fill="#1E293B"/>
+    <rect x="32" y="32" width="8" height="8" rx="1.5" fill="#1E293B"/>
+    <!-- Dots on dice -->
+    <circle cx="24" cy="24" r="1.5" fill="#F59E0B"/>
+    <circle cx="36" cy="36" r="1.5" fill="#F59E0B"/>
+    <circle cx="36" cy="24" r="1" fill="#F59E0B"/>
+    <circle cx="24" cy="36" r="1" fill="#F59E0B"/>
+  </g>
+  <defs>
+    <linearGradient id="goldGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#FBBF24" />
+      <stop offset="100%" stop-color="#D97706" />
+    </linearGradient>
+  </defs>
+  <!-- Text: COLJUEGOS -->
+  <text x="85" y="38" font-family="'Inter', system-ui, sans-serif" font-size="22" font-weight="900" fill="#FFFFFF" letter-spacing="0.5">COLJUEGOS</text>
+  <text x="85" y="54" font-family="'Inter', system-ui, sans-serif" font-size="9" font-weight="800" fill="#F59E0B" letter-spacing="1.5">AUTORIZA Y REGULA</text>
+</svg>

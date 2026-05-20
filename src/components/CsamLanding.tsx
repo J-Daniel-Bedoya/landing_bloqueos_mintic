@@ -93,6 +93,27 @@ export const CsamLanding: React.FC<CsamLandingProps> = ({ blockedUrl }) => {
                 )}
               </button>
             </div>
+
+            {/* Entidades de Control y Vigilancia Logos */}
+            <div className="mt-8 pt-6 border-t border-red-500/15">
+              <p className="text-[11px] font-bold uppercase tracking-wider text-red-400/70 mb-4 text-center md:text-left">
+                Entidades gubernamentales aliadas para la prevención y la denuncia:
+              </p>
+              <div className="flex flex-wrap items-center justify-center md:justify-start gap-4 md:gap-6">
+                <div className="h-12 px-4 rounded-xl bg-white/5 hover:bg-white/10 border border-white/5 transition-all duration-300 flex items-center justify-center" title="Ministerio TIC Colombia">
+                  <img src="/assets/logos/mintic.svg" alt="MinTIC" className="h-7 w-auto object-contain" />
+                </div>
+                <div className="h-12 px-4 rounded-xl bg-white/5 hover:bg-white/10 border border-white/5 transition-all duration-300 flex items-center justify-center" title="Instituto Colombiano de Bienestar Familiar">
+                  <img src="/assets/logos/icbf.svg" alt="ICBF" className="h-7 w-auto object-contain" />
+                </div>
+                <div className="h-12 px-4 rounded-xl bg-white/5 hover:bg-white/10 border border-white/5 transition-all duration-300 flex items-center justify-center" title="Policía Nacional de Colombia">
+                  <img src="/assets/logos/policia.svg" alt="Policía Nacional" className="h-8 w-auto object-contain" />
+                </div>
+                <div className="h-12 px-4 rounded-xl bg-white/5 hover:bg-white/10 border border-white/5 transition-all duration-300 flex items-center justify-center" title="Te Protejo">
+                  <img src="/assets/logos/teprotejo.svg" alt="Te Protejo" className="h-7 w-auto object-contain" />
+                </div>
+              </div>
+            </div>
           </div>
         </div>
       </div>
