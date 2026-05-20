@@ -19,12 +19,8 @@ export const Header: React.FC = () => {
           />
         </div>
         <div className="flex flex-col text-left">
-          <span className="font-extrabold text-xl tracking-tight text-white flex items-center gap-1.5">
-            LOGÍSTICA
-            <span className="text-lis-orange font-medium text-sm px-1.5 py-0.5 rounded bg-lis-orange/10">INTEGRAL</span>
-          </span>
-          <span className="text-xs text-gray-400 font-semibold tracking-wider uppercase">
-            Satelital & Fibra Óptica
+          <span className="font-black text-2xl md:text-3xl tracking-wider text-white">
+            LIS
           </span>
         </div>
       </div>
